@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 import time
 from distutils.version import StrictVersion # pylint: disable=E0611
 

@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.contrib.auth.decorators import user_passes_test
 
-from chroniker.admin import JobAdmin
-from chroniker.models import Job
+from .admin import JobAdmin
+from .models import Job
 
 
 def job_run(request, pk):

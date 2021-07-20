@@ -1,4 +1,3 @@
-from __future__ import print_function
 import html
 import errno
 import os
@@ -9,10 +8,7 @@ import warnings
 from datetime import timedelta
 from importlib import import_module
 from multiprocessing import Process, current_process
-try:
-    from io import StringIO
-except ImportError:
-    from cStringIO import StringIO
+from io import StringIO
 
 import psutil
 
