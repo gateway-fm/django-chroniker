@@ -1,4 +1,4 @@
 python-dateutil>=2.2
-psutil>=2.1.1
+psutil>=7.0.0
 toposort>=1.0
 Django>=4.3
